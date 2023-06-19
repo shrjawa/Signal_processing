@@ -34,17 +34,5 @@ class LoadData:
         
 
 
-            
-'''
-if __name__=="__main__":
-    parser=argparse.ArgumentParser()
-    parser.add_argument("--input_path",type=str,help="path of directory containing txt files")
-    args=parser.parse_args()
-    
-    if args.input_path:
-        input_data=load_data(args.input_path)
-        input_data.load()
 
-    else:
-        print("\n Please provide the path for input data\n ")'''
         
