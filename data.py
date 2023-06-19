@@ -10,7 +10,7 @@ class LoadData:
         self.data_array=[]
         self.labels=[]
     def load(self):
-        #print("notch filter is applied by default\n")
+      
         
         file_list = glob.glob(os.path.join(self.path, '*.txt'))
         if not file_list:
